@@ -72,3 +72,33 @@
   border-radius: 4px;
   background: var(--white);
 }
+
+@media (max-width: 800px) {
+  .jobs {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  .jobs .subtitle {
+    color: var(--black);
+  }
+  .jobs-text {
+    font-size: 1.8rem;
+  }
+  .company-year {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+    font-weight: 700;
+  }
+  .company-year::before {
+    content: 'Ano: ';
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 400px) {
+  .company {
+    grid-template-columns: 1fr;
+  }
+}

@@ -64,3 +64,11 @@ img {
   max-width: 5ch;
   line-height: 1;
 }
+
+@media (max-width: 800px) {
+  .subtitle {
+    font-size: 4.8rem;
+    text-transform: capitalize;
+    max-width: initial;
+  }
+}
