@@ -16,8 +16,8 @@
   /*--hue: 223; fator da cor*/
   --primary-color: hsl(223, 66%, 49%);
   --primary-color-light: hsl(184, 77%, 62%);
-  
-  --white: hsl(0,0%, 100%);
+
+  --white: hsl(0, 0%, 100%);
   --grey-1: hsl(223, 15%, 97%);
   --grey-2: hsl(223, 15%, 90%);
   --grey-3: hsl(223, 15%, 80%);
@@ -26,8 +26,8 @@
   --grey-6: hsl(223, 15%, 50%);
   --grey-7: hsl(223, 15%, 30%);
   --grey-8: hsl(223, 15%, 10%);
-  --grey-black: hsl(223,15%, 5%);
-  --black: hsl(0,0%, 0%);
+  --grey-black: hsl(223, 15%, 5%);
+  --black: hsl(0, 0%, 0%);
 
   --nav-height: 7.2rem;
 }
@@ -42,7 +42,25 @@ body {
   height: 100%;
 }
 
-img{
+img {
   max-width: 100%;
   display: block;
+}
+
+.wrapper {
+  max-width: 144rem;
+  padding: 4rem 2rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10rem;
+}
+
+.subtitle {
+  font-size: 14.4rem;
+  font-family: 'Playfair Display', serif;
+  word-break: break-all;
+  text-transform: uppercase;
+  max-width: 5ch;
+  line-height: 1;
 }
