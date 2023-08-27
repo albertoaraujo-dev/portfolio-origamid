@@ -65,6 +65,13 @@ img {
   line-height: 1;
 }
 
+.text {
+  font-size: 2.4rem;
+  line-height: 1.33;
+  margin-bottom: 6rem;
+  max-width: 40ch;
+}
+
 @media (max-width: 800px) {
   .subtitle {
     font-size: 4.8rem;
