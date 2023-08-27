@@ -2,15 +2,11 @@
   color: var(--grey-2);
 }
 
-.jobs-text {
-  font-size: 2.4rem;
-  line-height: 1.33;
-  margin-bottom: 6rem;
-  max-width: 40ch;
+.text {
   color: var(--grey-6);
 }
 
-.jobs-text strong {
+.text strong {
   color: var(--grey-8);
 }
 

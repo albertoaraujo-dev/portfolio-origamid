@@ -1,0 +1,109 @@
+.education {
+  background: var(--grey-8);
+  color: var(--white);
+}
+
+.education .subtitle {
+  color: var(--black);
+}
+
+.text {
+  color: var(--grey-4);
+}
+
+.text strong {
+  color: var(--white);
+}
+
+.university-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 6rem;
+}
+
+.university-card {
+  flex: 1;
+  padding: 2rem;
+  background: var(--grey-black);
+  border: 1px solid var(--black);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.university-type {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: var(--grey-1);
+  margin-bottom: 1rem;
+}
+
+.university-course {
+  flex: 1;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.university-course::before {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(var(--primary-color-light), var(--primary-color));
+  position: absolute;
+  left: -24px;
+}
+
+.university {
+  font-size: 1.8rem;
+  color: var(--grey-1);
+}
+
+.additional-education h3 {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: var(--grey-5);
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.additional-education h3::before {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -36px;
+  top: -2px;
+}
+
+.courses {
+  margin-bottom: 6rem;
+}
+
+.courses h3::before {
+  background: url('../img/cursos.svg') no-repeat center center;
+}
+
+.languages h3::before {
+  background: url('../img/idiomas.svg') no-repeat center center;
+}
+
+.additional-education li {
+  font-size: 1.8rem;
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+
+.additional-education span {
+  color: var(--grey-5);
+}
+
+.courses li {
+  display: flex;
+  justify-content: space-between;
+}
