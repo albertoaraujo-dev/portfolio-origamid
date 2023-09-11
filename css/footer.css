@@ -20,6 +20,7 @@
   line-height: 1.1;
   color: var(--white);
   margin-bottom: 3rem;
+  margin-left: 5rem;
 }
 
 .footer-contact li a {
@@ -31,6 +32,12 @@
   grid-column: 1 / -1;
   font-size: 1.8rem;
   color: var(--grey-5);
+}
+
+@media (min-width: 1400px) {
+  .footer-contact li {
+    margin-left: 20rem;
+  }
 }
 
 @media (max-width: 800px) {
