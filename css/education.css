@@ -11,8 +11,23 @@
   color: var(--grey-4);
 }
 
-.text-light strong {
+.education-text strong {
   color: var(--white);
+}
+
+.education-container {
+  position: relative;
+}
+
+.education-container::after {
+  content: '';
+  display: block;
+  width: 12rem;
+  height: 11rem;
+  background: url(../img/detalhe.svg) no-repeat center;
+  position: absolute;
+  bottom: -5.5rem;
+  left: 4rem;
 }
 
 .university-list {
@@ -109,4 +124,18 @@
 }
 
 @media (max-width: 800px) {
+  .education-container {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  .education .education-subtitle {
+    color: var(--white);
+  }
+  .education-text {
+    font-size: 2rem;
+  }
+  .additional-education h3::before {
+    position: initial;
+    margin-bottom: 1rem;
+  }
 }
